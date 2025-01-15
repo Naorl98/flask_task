@@ -39,7 +39,7 @@ After starting the server, open your web browser and navigate to `http://127.0.0
 - UI Enhancements: Improve the user interface for a better user experience.
 
 ## Contributors
-- [Your Name]
+- Naor ladani
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
