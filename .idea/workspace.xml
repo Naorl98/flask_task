@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06640986-42f4-4510-9efc-2c087db5453c" name="Changes" comment="upgrade tests">
-      <change beforePath="$PROJECT_DIR$/chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat.py" afterDir="false" />
-    </list>
+    <list default="true" id="06640986-42f4-4510-9efc-2c087db5453c" name="Changes" comment="Documentation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +133,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736932117555</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Documentation">
+      <option name="closed" value="true" />
+      <created>1736932466782</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736932466782</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Documentation">
+      <option name="closed" value="true" />
+      <created>1736932475018</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736932475018</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +167,7 @@
     <MESSAGE value="created chat" />
     <MESSAGE value="tests" />
     <MESSAGE value="upgrade tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="upgrade tests" />
+    <MESSAGE value="Documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Documentation" />
   </component>
 </project>
