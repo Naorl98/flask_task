@@ -1,0 +1,20 @@
+Room: <__main__.ChatAPITests object at 0x79b80cf394f0>, Status Code: 200, Response: [2025-01-15 10:36:42] n: hiii
+[2025-01-15 10:36:43] n: hiii
+[2025-01-15 10:36:46] n: by
+[2025-01-15 11:02:04] DDD: dsds
+[2025-01-15 11:03:47] Alice: Hello World!
+
+Room: <__main__.ChatAPITests object at 0x79b80cf394f0>, Status Code: 200, Response: 
+Room: <__main__.ChatAPITests object at 0x79b80cf394f0>, Status Code: 200, Response: {
+  "message": "Message added",
+  "success": true
+}
+
+Room: <__main__.ChatAPITests object at 0x79b80cf394f0>, Status Code: 400, Response: {
+  "error": "Missing data"
+}
+
+Room: <__main__.ChatAPITests object at 0x79b80cf394f0>, Status Code: 400, Response: {
+  "error": "Missing data"
+}
+
