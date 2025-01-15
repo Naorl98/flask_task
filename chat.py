@@ -8,11 +8,6 @@ chat_directory = "chat_files"
 if not os.path.exists(chat_directory):
     os.makedirs(chat_directory)
 
-def save_results(room, response):
-    with open("test_results.txt", "a") as file:
-        file.write(f"Room: {room}, Status Code: {response.status_code}, Response: {response.text}\n")
-
-
 
 def get_file_path(room):
     return os.path.join(chat_directory, f"{room}.txt")

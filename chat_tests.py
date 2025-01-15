@@ -8,14 +8,20 @@ class ChatAPITests:
     def print_response(self, response):
         print(f"Status Code: {response.status_code}, Response: {response.text}")
 
+    def save_results(room, response):
+        with open("test_results.txt", "a") as file:
+            file.write(f"Room: {room}, Status Code: {response.status_code}, Response: {response.text}\n")
+
     def test_get_chat(self, room):
         response = requests.get(f"{self.base_url}/api/chat/{room}")
         self.print_response(response)
+        self.save_results(response)
 
     def test_post_chat(self, room, username, message):
         data = {'username': username, 'msg': message}
         response = requests.post(f"{self.base_url}/api/chat/{room}", data=data)
         self.print_response(response)
+        self.save_results(response)
 
     def run_tests(self):
         print("Running GET tests...")
