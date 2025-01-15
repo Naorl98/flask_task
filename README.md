@@ -15,10 +15,10 @@ This project is a chat room application using Flask for the backend and a simple
 
 ## Installation
 To set up and run this application on your local machine, follow these steps:
-1. Clone the repository:
-2. Navigate to the project directory:
-3. Install Flask:
-4. Run the application:
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Install Flask.
+4. Run the application.
 This will start the Flask server on `http://127.0.0.1:5000/`.
 
 ## Usage
